@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Empêche le scroll si la boule dépasse */
+}
+
+#boule {
+    width: 100px; /* Ajuste la taille selon ton image */
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre l’image au départ */
+    cursor: grab;
+}
